@@ -1,0 +1,74 @@
+body {
+    background: #90EE90;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.encabezado{
+    display: grid;
+    grid-template-columns: 200px 900px;
+    align-items: center;
+    background-color: #013220;
+    border-radius: 20px;
+}
+.encabezado .titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.encabezado .logo{
+    border-radius: 20px ;
+}
+.contenido{
+    margin-top: 40px;
+    width: 350px;
+    height: 450px;
+    background: rgb(80, 77, 77);
+    color: White;  
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 40px ;
+    border-radius: 20px;
+}
+.contenido .formulario label{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenido .formulario p{
+    font-weight: bold;
+    align-items: center;
+}
+.contenido .formulario input{
+    width: 100%;
+    margin-bottom: 3px;
+}
+.contenido .formulario input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: bisque;
+    font-size: 16px;
+}
+.contenido .formulario input[type="submit"]{
+    margin-top: 2px;
+    border: none;
+    outline: none;
+    height: 45px;
+    background: #013220;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.contenido .formulario input[type="submit"]:hover{
+    cursor: pointer;
+    background: #34dd50;
+    color: white;
+}
