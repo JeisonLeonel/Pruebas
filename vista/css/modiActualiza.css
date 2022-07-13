@@ -1,0 +1,62 @@
+body {
+    background: #90EE90;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.encabezado{
+    display: grid;
+    grid-template-columns: 200px 900px;
+    align-items: center;
+    background-color: #013220;
+    border-radius: 20px;
+}
+.encabezado .titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.encabezado .logo{
+    border-radius: 20px ;
+}
+.contenido-principal .texto-mitad{
+    margin-top: -50px;
+    width: 520px;
+    height: 200px;
+    background: rgb(80, 77, 77);
+    color: White;  
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 95px ;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.contenido-principal .texto-mitad button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido-principal .texto-mitad button{
+    border: none;
+    outline: none;
+    margin-top: -5px;
+    height: 40px;
+    background: #013504;
+    color: rgb(233, 15, 15);
+    font-size: 18px;
+    border-radius: 20px;
+}
+.contenido-principal .texto-mitad button a{
+    text-decoration: none;
+    color: white;
+}
+.contenido-principal .texto-mitad button:hover{
+    cursor: pointer;
+    background: #34dd50;
+}
+
+

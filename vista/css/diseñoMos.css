@@ -1,0 +1,51 @@
+body {
+    background: #90EE90;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box
+}
+.encabezado{
+    display: grid;
+    grid-template-columns: 200px 900px;
+    align-items: center;
+    background-color: #013220;
+    border-radius: 20px;
+}
+.encabezado .titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.encabezado .logo{
+    border-radius: 20px ;
+}
+.tabla-contenido{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabla-contenido tr td {
+    border: black 2px solid;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+.boton-regresar .regresar {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #013504;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.boton-regresar .regresar a{
+    text-decoration: none;
+    color: white;
+}
+.boton-regresar .regresar:hover{
+    cursor: pointer;
+    background: #34dd50;
+}
